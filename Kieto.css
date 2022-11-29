@@ -281,9 +281,6 @@ footer nav button:hover{
 
 
 
-
-
-
 /* Schedule  */
 
 
@@ -305,8 +302,8 @@ footer nav button:hover{
     position: relative;
     top: 0;
     left: 0%;
-    width: 85%;
-    height: 100%;
+    width: 80%;
+    bottom: 0;
 }
 
 .text{
@@ -326,7 +323,7 @@ footer nav button:hover{
     position: absolute;
     max-width: 10%;
     max-height: 30%;
-    bottom: 1.45rem;
+    bottom: 2rem;
     left: 13.6rem;
 }
 

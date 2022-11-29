@@ -7,21 +7,13 @@ let isPlaying = false;
 buttonThing.addEventListener("click", function(event) {
     event.preventDefault();
 
-    let playPromise = '';
-
     if (isPlaying){
         isPlaying = false;
         actualAudio.pause();
     } else {
         isPlaying = true;
-        playPromise = actualAudio.play();
+        actualAudio.play();
     }
 
-    if (playPromise !== undefined) {
-    playPromise.then(_ => {
-      video.pause();
-    })
-    .catch(error => {
-    });
-  }
+    
 });
