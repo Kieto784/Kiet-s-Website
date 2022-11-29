@@ -386,7 +386,6 @@ footer nav button:hover{
     bottom: 1.45rem;
     right: 0;
     z-index: -1; 
-    /* change this gif later */
 }
 
 .in2{
@@ -417,6 +416,11 @@ footer nav button:hover{
     border: 5px solid white;
 }
 
+.manual{
+    width: 35%;
+    max-height: 480px;
+}
+
 .section2 iframe{
     max-width: 1000px;
     border: 5px solid white;
@@ -430,6 +434,7 @@ footer nav button:hover{
 .section2 .text2{
     flex-grow: 2;
     padding: 1rem;
+    padding-bottom: 0;
 
 }
 
@@ -441,6 +446,13 @@ footer nav button:hover{
 .swim{
     margin: 0;
     position: center;
+}
+
+.bar{
+    width: 100%;
+    background-color: rgb(213, 130, 151);
+    padding: 2rem;
+    border: 2px solid white;
 }
 
 
