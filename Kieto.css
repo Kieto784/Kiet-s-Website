@@ -8,7 +8,7 @@
 
 
 body, html {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 100%;
 }
 
@@ -26,26 +26,25 @@ body {
 
 .audiodiv{
     position: fixed;
-    top: .35rem;
+    top: .75rem;
     right: 1rem;
     z-index: 1;
     display: flex;
 }
 
-.playbutton{
-    margin: 1rem;
-    padding: 0.5rem;
-    border-radius: 10px;
-    border-color: rgb(192, 187, 188);
-    background-color:rgb(249, 173, 198);
-    font-size: medium;
-    color: rgb(107, 15, 15);
+.center{
+    margin: 25%;
 }
 
-.playbutton:hover{
-    background-color: rgb(160, 124, 217);
-    font-size: large;
-    color: rgb(65, 52, 149);
+audio:hover , audio:focus , audio:active{
+    box-shadow: 15px 15px 20px rgb(231, 111, 111);
+    transform: scale(1.05);
+}
+
+audio{
+    transition: all 0.5s linear;
+    box-shadow: 2px 2px 4px 0px rgb(233, 136, 136);
+    border-radius: 7px;
 }
 
 .aboutme{
@@ -285,7 +284,7 @@ footer nav button:hover{
 
 
 .aboutmesch{
-    background-color: rgba(213, 130, 151, 0.8);
+  background-color: rgba(213, 130, 151, 0.8);
     left: 10%;
     width: 80%;
     height: 80%;
@@ -363,6 +362,58 @@ footer nav button:hover{
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.aboutmehob h1{
+    position: relative;
+    font-size: 80px;
+    color: rgb(113, 40, 40);
+    letter-spacing: 5px;
+    text-shadow: 
+    
+    0px 0px 1px rgb(116, 50, 50),
+    0px 1px 1px rgb(116, 50, 50),
+    0px 2px 1px rgb(116, 50, 50),
+
+    1px 1px 1px rgb(116, 50, 50),
+    1px 2px 1px rgb(116, 50, 50),
+    1px 3px 1px rgb(116, 50, 50),
+    
+    2px 2px 1px rgb(116, 50, 50),
+    2px 3px 1px rgb(116, 50, 50),
+    3px 4px 1px rgb(116, 50, 50),
+
+    1px 10px 30px rgb(77, 66, 66),
+    1px 10px 70px rgb(77, 66, 66),
+
+    0px 5px 5px rgba(77, 66, 66, 0.8),
+
+    5px 5px 20px rgba(77, 66, 66, 0.8),
+    
+    1px 1px 120px rgba(224, 225, 148, 0.8);
+   
+}
+
+.aboutmehob h1::after{
+    content: "My Hobbies!";
+    font-size: 80px;
+    letter-spacing: 5px;
+    position: absolute;
+    text-shadow: 0px 0px 100px rgba(96, 130, 223, 0.8);
+    top: 0;
+    left: 29.4%;
+    animation: cycle 1s linear infinite;
+
+}
+
+@keyframes cycle {
+    0% { text-shadow: 0px 10px 120px rgba(140, 5, 2, 0.8);}
+    0% { text-shadow: 0px 10px 120px rgba(138, 113, 1, 0.8);}
+    0% { text-shadow: 0px 10px 120px rgba(3, 141, 8, 0.604);}
+    0% { text-shadow: 0px 10px 120px rgba(0, 18, 133, 0.8);}
+    0% { text-shadow: 0px 10px 120px rgba(78, 2, 122, 0.8);}
+}
+
+
 
 
 
@@ -451,6 +502,8 @@ footer nav button:hover{
     padding: 2rem;
     border: 2px solid white;
 }
+
+
 
 
 
