@@ -43,11 +43,11 @@
                     <a href="hobbies.html"> Hobbies </a>
                 </button>
 
-                <div class="audiodiv">
+                <!-- <div class="audiodiv">
                     <audio loop controls>
                         <source src="Audio/Genshin_Impact_Original_Soundtrack_(getmp3.pro).mp3" type="audio/mp3">
                     </audio>
-                </div>
+                </div> -->
 
             </nav>
 
@@ -59,10 +59,20 @@
             </div>
 
         </header>
-
+        
 
 
         <div class="aboutmehob">
+
+            <video width="0%" height="0%" loop id="autoplay">
+                <source src="Video/Bustling_Afternoon_in_Mondstadt_(getmp3.pro) (1).mp4" type="video/mp4">
+            </video>
+            <script>
+                window.onload = function() {
+                    document.getElementById("autoplay").play();
+                }
+            </script>
+
             <br><br><br><br><br><br><br><br><br><br>
 
             <h1 id="T">
@@ -173,7 +183,7 @@
                         the games and activities that are there. One of them being ping pong. I played tennis for quite
                         a bit during high school and had some confidence starting ping pong. After a while, I found
                         myself to be very enthusiastic about it and have spent countless hours playing against my
-                        friends.
+                        friends. 
                     </p>
 
                     <br>

@@ -406,11 +406,11 @@ footer nav button:hover{
 }
 
 @keyframes cycle {
-    0% { text-shadow: 0px 10px 120px rgba(140, 5, 2, 0.8);}
-    0% { text-shadow: 0px 10px 120px rgba(138, 113, 1, 0.8);}
-    0% { text-shadow: 0px 10px 120px rgba(3, 141, 8, 0.604);}
-    0% { text-shadow: 0px 10px 120px rgba(0, 18, 133, 0.8);}
-    0% { text-shadow: 0px 10px 120px rgba(78, 2, 122, 0.8);}
+    20% { text-shadow: 0px 10px 120px rgba(140, 5, 2, 0.8);}
+    40% { text-shadow: 0px 10px 120px rgba(138, 113, 1, 0.8);}
+    60% { text-shadow: 0px 10px 120px rgba(3, 141, 8, 0.604);}
+    80% { text-shadow: 0px 10px 120px rgba(0, 18, 133, 0.8);}
+    100% { text-shadow: 0px 10px 120px rgba(78, 2, 122, 0.8);}
 }
 
 
